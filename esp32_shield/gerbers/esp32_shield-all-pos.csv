@@ -1,0 +1,16 @@
+Ref,Val,Package,PosX,PosY,Rot,Side
+"J1","CONECTORES","PinHeader_2x10_P2.54mm_Vertical",96.823540,-102.820820,180.000000,top
+"J2","SERVO_1","PinHeader_1x03_P2.54mm_Horizontal",174.994580,-81.896820,0.000000,top
+"J3","SERVO_2","PinHeader_1x03_P2.54mm_Horizontal",174.994580,-94.850820,0.000000,top
+"J4","SC_1","PinHeader_1x03_P2.54mm_Horizontal",109.900585,-115.059060,270.000000,top
+"J5","SC_2","PinHeader_1x03_P2.54mm_Horizontal",120.394740,-115.059060,270.000000,top
+"J6","DHT11","PinHeader_1x03_P2.54mm_Horizontal",156.716740,-67.942060,90.000000,top
+"J7","LDR","PinHeader_1x02_P2.54mm_Horizontal",135.764621,-114.995560,270.000000,top
+"J8","SD","PinHeader_1x06_P2.54mm_Horizontal",110.488740,-67.942060,90.000000,top
+"J9","DS18B20_1","PinHeader_1x03_P2.54mm_Horizontal",156.954657,-115.059060,270.000000,top
+"J10","DS18B20_2","PinHeader_1x03_P2.54mm_Horizontal",172.324349,-115.059060,270.000000,top
+"J11","RTC","PinHeader_1x05_P2.54mm_Horizontal",134.706740,-67.942060,90.000000,top
+"R1","10k","R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",140.905240,-114.995560,270.000000,top
+"R2","4.7k","R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",162.431740,-122.679060,90.000000,top
+"R3","4.7k","R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",177.671740,-122.679060,90.000000,top
+"U1","ESP32_30","ESP32_30",133.973580,-91.358320,90.000000,top

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Shooting_Star_Icon)(type Legacy)(uri "C:/Users/Laptop/Box Sync/KiCAD-Projekte/Herz/Shooting Star Icon.lib")(options "")(descr ""))
+  (lib (name Herz-rescue)(type Legacy)(uri ${KIPRJMOD}/Herz-rescue.lib)(options "")(descr ""))
+)

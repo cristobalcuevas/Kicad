@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 282 342" style="enable-background:new 0 0 282 342;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;stroke:#000000;}
+	.st1{font-family:'Arial-BoldMT';}
+	.st2{font-size:15px;}
+	.st3{font-family:'ArialMT';}
+	.st4{font-size:12px;}
+	.st5{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st6{stroke:#000000;stroke-miterlimit:10;}
+</style>
+<g>
+	<rect x="160.5" y="0.5" pointer-events="all" class="st0" width="120" height="340"/>
+	<g transform="translate(-0.5 -0.5)">
+		<text transform="matrix(1 0 0 1 197.1504 175.5)" class="st1 st2">ESP32</text>
+	</g>
+	<rect x="0.5" y="0.5" pointer-events="all" class="st0" width="120" height="40"/>
+	<g transform="translate(-0.5 -0.5)">
+		<text transform="matrix(1 0 0 1 38.1523 24.5)" class="st3 st4">ACS712</text>
+	</g>
+	<rect x="0.5" y="50.5" pointer-events="all" class="st0" width="120" height="40"/>
+	<g transform="translate(-0.5 -0.5)">
+		<text transform="matrix(1 0 0 1 48.4971 74.5)" class="st3 st4">LDR</text>
+	</g>
+	<rect x="0.5" y="100.5" pointer-events="all" class="st0" width="120" height="40"/>
+	<g transform="translate(-0.5 -0.5)">
+		<text transform="matrix(1 0 0 1 45.4912 124.5)" class="st3 st4">LM35</text>
+	</g>
+	<rect x="0.5" y="150.5" pointer-events="all" class="st0" width="120" height="40"/>
+	<g transform="translate(-0.5 -0.5)">
+		<text transform="matrix(1 0 0 1 23.1523 174.5)" class="st3 st4">Servomotores</text>
+	</g>
+	<rect x="0.5" y="200.5" pointer-events="all" class="st0" width="120" height="40"/>
+	<g transform="translate(-0.5 -0.5)">
+		<text transform="matrix(1 0 0 1 37.499 224.5)" class="st3 st4">MicroSD</text>
+	</g>
+	<rect x="0.5" y="250.5" pointer-events="all" class="st0" width="120" height="40"/>
+	<g transform="translate(-0.5 -0.5)">
+		<text transform="matrix(1 0 0 1 48.2773 274.5)" class="st3 st4">RTC</text>
+	</g>
+	<rect x="0.5" y="300.5" pointer-events="all" class="st0" width="120" height="40"/>
+	<g transform="translate(-0.5 -0.5)">
+		<text transform="matrix(1 0 0 1 41.9404 324.5)" class="st3 st4">DHT11</text>
+	</g>
+	<path pointer-events="stroke" class="st5" d="M120.5,20.5l33.6,0"/>
+	<path pointer-events="all" class="st6" d="M159.4,20.6l-7,3.5l1.8-3.5l-1.7-3.5L159.4,20.6z"/>
+	<path pointer-events="stroke" class="st5" d="M120.5,120.3l33.6,0"/>
+	<path pointer-events="all" class="st6" d="M159.4,120.4l-7,3.5l1.8-3.5l-1.7-3.5L159.4,120.4z"/>
+	<path pointer-events="stroke" class="st5" d="M120.5,170.3l33.6,0.1"/>
+	<path pointer-events="all" class="st6" d="M159.4,170.4l-7,3.5l1.8-3.5l-1.7-3.5L159.4,170.4z"/>
+	<path pointer-events="stroke" class="st5" d="M120.5,220.3l33.6,0.1"/>
+	<path pointer-events="all" class="st6" d="M159.4,220.4l-7,3.5l1.8-3.5l-1.7-3.5L159.4,220.4z"/>
+	<path pointer-events="stroke" class="st5" d="M120.5,270.3l33.6,0.1"/>
+	<path pointer-events="all" class="st6" d="M159.4,270.4l-7,3.5l1.8-3.5l-1.7-3.5L159.4,270.4z"/>
+	<path pointer-events="stroke" class="st5" d="M120.5,320.3l33.6,0.1"/>
+	<path pointer-events="all" class="st6" d="M159.4,320.4l-7,3.5l1.8-3.5l-1.7-3.5L159.4,320.4z"/>
+	<path pointer-events="stroke" class="st5" d="M120.5,70.4l33.6,0.1"/>
+	<path pointer-events="all" class="st6" d="M159.4,70.5l-7,3.5l1.8-3.5l-1.7-3.5L159.4,70.5z"/>
+</g>
+</svg>

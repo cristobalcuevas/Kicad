@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name LT3514)(type KiCad)(uri ${KIPRJMOD}/Fuente.pretty)(options "")(descr ""))
+)

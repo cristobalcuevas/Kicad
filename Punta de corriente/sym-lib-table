@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name LT3463EDDPBF)(type Legacy)(uri ${KIPRJMOD}/LT3463EDDPBF.lib)(options "")(descr ""))
+  (lib (name Punta-de-corriente-rescue)(type Legacy)(uri "${KIPRJMOD}/Punta de corriente-rescue.lib")(options "")(descr ""))
+)

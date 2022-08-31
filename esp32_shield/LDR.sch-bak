@@ -1,0 +1,80 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 5 9
+Title ""
+Date "2021-06-15"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	5600 3700 5600 3750
+Connection ~ 5600 3700
+Wire Wire Line
+	6050 3700 5600 3700
+$Comp
+L Device:R R?
+U 1 1 60CD9072
+P 5600 3900
+AR Path="/60CD9072" Ref="R?"  Part="1" 
+AR Path="/60CD286E/60CD9072" Ref="R1"  Part="1" 
+F 0 "R1" H 5670 3946 50  0000 L CNN
+F 1 "10k" H 5670 3855 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5530 3900 50  0001 C CNN
+F 3 "~" H 5600 3900 50  0001 C CNN
+	1    5600 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60CD9078
+P 5600 4100
+AR Path="/60CD9078" Ref="#PWR?"  Part="1" 
+AR Path="/60CD286E/60CD9078" Ref="#PWR016"  Part="1" 
+F 0 "#PWR016" H 5600 3850 50  0001 C CNN
+F 1 "GND" H 5605 3927 50  0000 C CNN
+F 2 "" H 5600 4100 50  0001 C CNN
+F 3 "" H 5600 4100 50  0001 C CNN
+	1    5600 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 4050 5600 4100
+Wire Wire Line
+	5600 3500 5600 3550
+Wire Wire Line
+	5600 3650 5600 3700
+$Comp
+L power:+5V #PWR?
+U 1 1 60CD9082
+P 5600 3500
+AR Path="/60CD9082" Ref="#PWR?"  Part="1" 
+AR Path="/60CD286E/60CD9082" Ref="#PWR015"  Part="1" 
+F 0 "#PWR015" H 5600 3350 50  0001 C CNN
+F 1 "+5V" H 5615 3673 50  0000 C CNN
+F 2 "" H 5600 3500 50  0001 C CNN
+F 3 "" H 5600 3500 50  0001 C CNN
+	1    5600 3500
+	1    0    0    -1  
+$EndComp
+Text HLabel 6050 3700 2    50   Output ~ 0
+LDR
+$Comp
+L Connector_Generic:Conn_01x02 J7
+U 1 1 60CCD4A5
+P 5400 3650
+F 0 "J7" H 5500 3550 50  0000 C CNN
+F 1 "LDR" H 5550 3650 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 5400 3650 50  0001 C CNN
+F 3 "~" H 5400 3650 50  0001 C CNN
+F 4 "2111-1X02G00SB" H 5400 3650 50  0001 C CNN "PartNumber"
+	1    5400 3650
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC

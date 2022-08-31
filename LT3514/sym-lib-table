@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name B290)(type Legacy)(uri ${KIPRJMOD}/B290.lib)(options "")(descr ""))
+  (lib (name DCJ200)(type Legacy)(uri ${KIPRJMOD}/DCJ200.lib)(options "")(descr ""))
+  (lib (name EPL3015)(type Legacy)(uri ${KIPRJMOD}/EPL3015.lib)(options "")(descr ""))
+  (lib (name MSS6132)(type Legacy)(uri ${KIPRJMOD}/MSS6132.lib)(options "")(descr ""))
+)

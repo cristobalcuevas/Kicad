@@ -1,0 +1,4 @@
+
+(fp_lib_table
+  (lib (name "Sorting Hat")(type KiCad)(uri "$(KIPRJMOD)/Sorting Hat.pretty")(options "")(descr ""))
+)

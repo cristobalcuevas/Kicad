@@ -1,0 +1,120 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 2 9
+Title ""
+Date "2021-06-15"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	5550 4400 5850 4400
+Wire Wire Line
+	5650 4500 5650 4300
+Wire Wire Line
+	5550 4500 5650 4500
+Wire Wire Line
+	5650 4600 5650 4700
+Wire Wire Line
+	5550 4600 5650 4600
+$Comp
+L power:GND #PWR?
+U 1 1 60CBF433
+P 5650 4700
+AR Path="/60CBF433" Ref="#PWR?"  Part="1" 
+AR Path="/60CBC32B/60CBF433" Ref="#PWR08"  Part="1" 
+F 0 "#PWR08" H 5650 4450 50  0001 C CNN
+F 1 "GND" H 5655 4527 50  0000 C CNN
+F 2 "" H 5650 4700 50  0001 C CNN
+F 3 "" H 5650 4700 50  0001 C CNN
+	1    5650 4700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 3350 5650 3150
+Wire Wire Line
+	5550 3350 5650 3350
+Wire Wire Line
+	5650 3450 5650 3550
+Wire Wire Line
+	5550 3450 5650 3450
+$Comp
+L power:GND #PWR?
+U 1 1 60CBF444
+P 5650 3550
+AR Path="/60CBF444" Ref="#PWR?"  Part="1" 
+AR Path="/60CBC32B/60CBF444" Ref="#PWR06"  Part="1" 
+F 0 "#PWR06" H 5650 3300 50  0001 C CNN
+F 1 "GND" H 5655 3377 50  0000 C CNN
+F 2 "" H 5650 3550 50  0001 C CNN
+F 3 "" H 5650 3550 50  0001 C CNN
+	1    5650 3550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 60CBF450
+P 5650 3150
+AR Path="/60CBF450" Ref="#PWR?"  Part="1" 
+AR Path="/60CBC32B/60CBF450" Ref="#PWR05"  Part="1" 
+F 0 "#PWR05" H 5650 3000 50  0001 C CNN
+F 1 "+5V" H 5665 3323 50  0000 C CNN
+F 2 "" H 5650 3150 50  0001 C CNN
+F 3 "" H 5650 3150 50  0001 C CNN
+	1    5650 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 60CBF456
+P 5650 4300
+AR Path="/60CBF456" Ref="#PWR?"  Part="1" 
+AR Path="/60CBC32B/60CBF456" Ref="#PWR07"  Part="1" 
+F 0 "#PWR07" H 5650 4150 50  0001 C CNN
+F 1 "+5V" H 5665 4473 50  0000 C CNN
+F 2 "" H 5650 4300 50  0001 C CNN
+F 3 "" H 5650 4300 50  0001 C CNN
+	1    5650 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 3250 5850 3250
+Text HLabel 5850 3250 2    50   Output ~ 0
+SERVO_1
+Text HLabel 5850 4400 2    50   Output ~ 0
+SERVO_2
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 60CC9C58
+P 5350 3350
+AR Path="/60C97B34/60CC9C58" Ref="J?"  Part="1" 
+AR Path="/60CBC32B/60CC9C58" Ref="J2"  Part="1" 
+F 0 "J2" H 5500 3300 50  0000 C CNN
+F 1 "SERVO_1" H 5600 3400 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 5350 3350 50  0001 C CNN
+F 3 "~" H 5350 3350 50  0001 C CNN
+F 4 "2011-1X03G00SD025B" H 5350 3350 50  0001 C CNN "PartNumber"
+	1    5350 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 60CCA1D3
+P 5350 4500
+AR Path="/60C97B34/60CCA1D3" Ref="J?"  Part="1" 
+AR Path="/60CBC32B/60CCA1D3" Ref="J3"  Part="1" 
+F 0 "J3" H 5500 4450 50  0000 C CNN
+F 1 "SERVO_2" H 5600 4550 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 5350 4500 50  0001 C CNN
+F 3 "~" H 5350 4500 50  0001 C CNN
+F 4 "2011-1X03G00SD025B" H 5350 4500 50  0001 C CNN "PartNumber"
+	1    5350 4500
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC
