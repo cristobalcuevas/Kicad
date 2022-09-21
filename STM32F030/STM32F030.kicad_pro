@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.7,
-          "width": 1.7
+          "drill": 0.762,
+          "height": 1.524,
+          "width": 1.524
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.19999999999999998
         }
       },
       "diff_pair_dimensions": [],
@@ -101,7 +101,7 @@
         "allow_microvias": false,
         "max_error": 0.005,
         "min_clearance": 0.0,
-        "min_copper_edge_clearance": 0.049999999999999996,
+        "min_copper_edge_clearance": 0.024999999999999998,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
@@ -113,13 +113,7 @@
         "min_via_diameter": 0.39999999999999997,
         "use_height_for_length_calcs": true
       },
-      "track_widths": [
-        0.0,
-        0.254,
-        0.381,
-        0.508,
-        0.762
-      ],
+      "track_widths": [],
       "via_dimensions": [],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
@@ -340,7 +334,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "USB to UART.kicad_pro",
+    "filename": "proyecto 2.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -361,6 +355,46 @@
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "5v",
+        "nets": [
+          "+5V"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.4,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power",
+        "nets": [
+          "+3V3"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.35,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6.0
       }
     ],
     "meta": {
@@ -372,7 +406,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "USB to UART.net",
+      "netlist": "proyecto2.net",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -401,15 +435,6 @@
       "version": 1
     },
     "net_format_name": "Pcbnew",
-    "ngspice": {
-      "fix_include_paths": true,
-      "fix_passive_vals": false,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 0,
-      "workbook_filename": ""
-    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_adjust_passive_values": false,
@@ -419,20 +444,8 @@
   },
   "sheets": [
     [
-      "4fb02e58-160a-4a39-9f22-d0c75e82ee72",
+      "cfa5c16e-7859-460d-a0b8-cea7d7ea629c",
       ""
-    ],
-    [
-      "00000000-0000-0000-0000-000060ca25e9",
-      "Source"
-    ],
-    [
-      "00000000-0000-0000-0000-000060c80acd",
-      "CP2102N-GQFN28"
-    ],
-    [
-      "00000000-0000-0000-0000-000060ca0a34",
-      "Connector"
     ]
   ],
   "text_variables": {}

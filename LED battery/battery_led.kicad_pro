@@ -2,7 +2,7 @@
   "board": {
     "design_settings": {
       "defaults": {
-        "board_outline_line_width": 0.049999999999999996,
+        "board_outline_line_width": 0.09999999999999999,
         "copper_line_width": 0.19999999999999998,
         "copper_text_italic": false,
         "copper_text_size_h": 1.5,
@@ -26,18 +26,18 @@
         "fab_text_size_v": 1.0,
         "fab_text_thickness": 0.15,
         "fab_text_upright": false,
-        "other_line_width": 0.09999999999999999,
+        "other_line_width": 0.15,
         "other_text_italic": false,
         "other_text_size_h": 1.0,
         "other_text_size_v": 1.0,
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.7,
-          "width": 1.7
+          "drill": 0.762,
+          "height": 1.524,
+          "width": 1.524
         },
-        "silk_line_width": 0.12,
+        "silk_line_width": 0.15,
         "silk_text_italic": false,
         "silk_text_size_h": 1.0,
         "silk_text_size_v": 1.0,
@@ -51,7 +51,6 @@
       "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
-        "filename": "board_design_settings.json",
         "version": 2
       },
       "rule_severities": {
@@ -94,14 +93,12 @@
         "zone_has_empty_net": "error",
         "zones_intersect": "error"
       },
-      "rule_severitieslegacy_courtyards_overlap": true,
-      "rule_severitieslegacy_no_courtyard_defined": false,
       "rules": {
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
         "min_clearance": 0.0,
-        "min_copper_edge_clearance": 0.049999999999999996,
+        "min_copper_edge_clearance": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
@@ -111,15 +108,11 @@
         "min_track_width": 0.19999999999999998,
         "min_via_annular_width": 0.049999999999999996,
         "min_via_diameter": 0.39999999999999997,
+        "solder_mask_clearance": 0.0,
+        "solder_mask_min_width": 0.0,
         "use_height_for_length_calcs": true
       },
-      "track_widths": [
-        0.0,
-        0.254,
-        0.381,
-        0.508,
-        0.762
-      ],
+      "track_widths": [],
       "via_dimensions": [],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
@@ -340,7 +333,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "USB to UART.kicad_pro",
+    "filename": "battery_led.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -372,7 +365,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "USB to UART.net",
+      "netlist": "",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -391,16 +384,16 @@
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
-      "label_size_ratio": 0.25,
-      "pin_symbol_size": 0.0,
-      "text_offset_ratio": 0.08
+      "label_size_ratio": 0.375,
+      "pin_symbol_size": 25.0,
+      "text_offset_ratio": 0.15
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
     "meta": {
       "version": 1
     },
-    "net_format_name": "Pcbnew",
+    "net_format_name": "",
     "ngspice": {
       "fix_include_paths": true,
       "fix_passive_vals": false,
@@ -419,20 +412,24 @@
   },
   "sheets": [
     [
-      "4fb02e58-160a-4a39-9f22-d0c75e82ee72",
+      "1c8ea91c-0ad6-4041-bb97-a35096db0ac1",
       ""
     ],
     [
-      "00000000-0000-0000-0000-000060ca25e9",
-      "Source"
+      "3b82edb8-a055-49d3-a65e-c93ac2be303c",
+      "TP4056"
     ],
     [
-      "00000000-0000-0000-0000-000060c80acd",
-      "CP2102N-GQFN28"
+      "6a1c8d94-f032-42e5-bac6-d67dd1382e69",
+      "USB_B"
     ],
     [
-      "00000000-0000-0000-0000-000060ca0a34",
-      "Connector"
+      "4c4715db-159d-4508-9664-243abcb34b46",
+      "DW01A"
+    ],
+    [
+      "8cc91b5d-fb4a-4ad1-bb38-4fc3bd3dcd8b",
+      "FS8205A"
     ]
   ],
   "text_variables": {}

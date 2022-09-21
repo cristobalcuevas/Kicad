@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.7,
-          "width": 1.7
+          "drill": 0.762,
+          "height": 1.524,
+          "width": 1.524
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -101,7 +101,7 @@
         "allow_microvias": false,
         "max_error": 0.005,
         "min_clearance": 0.0,
-        "min_copper_edge_clearance": 0.049999999999999996,
+        "min_copper_edge_clearance": 0.024999999999999998,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
@@ -113,13 +113,7 @@
         "min_via_diameter": 0.39999999999999997,
         "use_height_for_length_calcs": true
       },
-      "track_widths": [
-        0.0,
-        0.254,
-        0.381,
-        0.508,
-        0.762
-      ],
+      "track_widths": [],
       "via_dimensions": [],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
@@ -340,7 +334,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "USB to UART.kicad_pro",
+    "filename": "Dado led.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -372,7 +366,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "USB to UART.net",
+      "netlist": "Dado led.net",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -419,20 +413,8 @@
   },
   "sheets": [
     [
-      "4fb02e58-160a-4a39-9f22-d0c75e82ee72",
+      "9762c9ed-64d8-4f3e-baf6-f6ba6effc919",
       ""
-    ],
-    [
-      "00000000-0000-0000-0000-000060ca25e9",
-      "Source"
-    ],
-    [
-      "00000000-0000-0000-0000-000060c80acd",
-      "CP2102N-GQFN28"
-    ],
-    [
-      "00000000-0000-0000-0000-000060ca0a34",
-      "Connector"
     ]
   ],
   "text_variables": {}
