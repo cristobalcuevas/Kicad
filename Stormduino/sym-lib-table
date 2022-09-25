@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name stormduino-Rev2-rescue)(type Legacy)(uri "${KIPRJMOD}/stormduino Rev2-rescue.lib")(options "")(descr ""))
-)

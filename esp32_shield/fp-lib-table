@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name esp32_shield)(type KiCad)(uri ${KIPRJMOD}/esp32_shield.pretty)(options "")(descr ""))
-)

@@ -4,6 +4,11 @@
 
   (paper "A4")
 
+  (title_block
+    (rev "1.0")
+    (company "Cristóbal Cuevas Lagos")
+  )
+
   (lib_symbols
     (symbol "battery_led:FS8205A" (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at 0 10.16 0)

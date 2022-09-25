@@ -1,4 +1,0 @@
-(fp_lib_table
-  (lib (name icons)(type KiCad)(uri "C:/Users/Laptop/Box Sync/KiCAD-Projekte/Herz/icons.pretty")(options "")(descr ""))
-  (lib (name HerzFootprints)(type KiCad)(uri ${KIPRJMOD}/HerzFootprints.pretty)(options "")(descr ""))
-)

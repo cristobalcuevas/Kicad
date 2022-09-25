@@ -4,6 +4,13 @@
 
   (paper "USLetter")
 
+  (title_block
+    (title "Panel 7 segments")
+    (rev "1.0")
+    (company "Cristóbal Cuevas Lagos")
+    (comment 1 "Large 7 segment panel controlled by STP16CP05 IC and allows connecting several in series")
+  )
+
   (lib_symbols
     (symbol "Connector:Conn_01x06_Female" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 7.62 0)

@@ -5,8 +5,11 @@
   (paper "USLetter")
 
   (title_block
-    (title "Programación STM32")
+    (title "STM32F030")
     (date "2020-08-21")
+    (rev "1.0")
+    (company "Cristóbal Cuevas Lagos")
+    (comment 1 "Basic programmer for STM32F0")
   )
 
   (lib_symbols

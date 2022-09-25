@@ -2,7 +2,13 @@
 
   (uuid 0d35483a-0b12-46cc-b9f2-896fd6831779)
 
-  (paper "A4")
+  (paper "USLetter")
+
+  (title_block
+    (title "Christmas tree")
+    (rev "1.0")
+    (company "Cristóbal Cuevas Lagos")
+  )
 
   (lib_symbols
     (symbol "Device:Battery" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)

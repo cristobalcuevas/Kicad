@@ -5,7 +5,10 @@
   (paper "USLetter")
 
   (title_block
-    (date "2021-06-15")
+    (title "Connector")
+    (rev "1.0")
+    (company "Cristóbal Cuevas Lagos")
+    (comment 1 "Cristóbal Cuevas Lagos")
   )
 
   (lib_symbols
