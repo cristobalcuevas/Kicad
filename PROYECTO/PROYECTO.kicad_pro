@@ -48,7 +48,13 @@
           "min_clearance": 0.508
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -112,8 +118,16 @@
         "solder_mask_min_width": 0.0,
         "use_height_for_length_calcs": true
       },
-      "track_widths": [],
-      "via_dimensions": [],
+      "track_widths": [
+        0.0,
+        1.0
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
@@ -333,7 +347,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "DS3231.kicad_pro",
+    "filename": "PROYECTO.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -365,7 +379,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "DS3231.net",
+      "netlist": "PROYECTO.net",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -393,7 +407,7 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
+    "net_format_name": "KiCad",
     "ngspice": {
       "fix_include_paths": true,
       "fix_passive_vals": false,
@@ -412,8 +426,20 @@
   },
   "sheets": [
     [
-      "f95b7ec6-efee-4fc8-8ec5-628630f2a67f",
+      "aabbb50a-1129-48f4-a038-d656d0b1a169",
       ""
+    ],
+    [
+      "596ed7c3-bf6a-44d1-81da-521eaa804f44",
+      "PID"
+    ],
+    [
+      "c9c3ff8a-cc40-4f5a-8c0e-f384fc933c0b",
+      "Amplificador de instrumentacion"
+    ],
+    [
+      "85b30a72-2286-4f4b-9644-be52d496f960",
+      "555"
     ]
   ],
   "text_variables": {}
