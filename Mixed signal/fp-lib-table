@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name "Mixed signal")(type "KiCad")(uri "${KIPRJMOD}/Mixed signal.pretty")(options "")(descr ""))
-)
